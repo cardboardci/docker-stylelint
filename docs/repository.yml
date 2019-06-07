@@ -1,0 +1,10 @@
+---
+name: Docker Stylelint 
+slug: docker-stylelint
+project: cardboardci
+namespace: []
+description: A mighty, modern style linter.
+license:
+  name: MIT
+tags:
+  - docker
