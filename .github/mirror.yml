@@ -1,0 +1,8 @@
+---
+name: github
+provider: github.com
+repository: docker-stylelint
+url: https://github.com/cardboardci/docker-stylelint
+clone:
+  ssh: git@github.com:cardboardci/docker-stylelint.git
+  https: https://github.com/cardboardci/docker-stylelint.git
