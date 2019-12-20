@@ -20,24 +20,20 @@ USER cardboardci
 ARG build_date
 ARG version
 ARG vcs_ref
-LABEL maintainer = "CardboardCI" \
-    \
-    org.label-schema.schema-version = "1.0" \
-    \
-    org.label-schema.name = "stylelint" \
-    org.label-schema.version = "${version}" \
-    org.label-schema.build-date = "${build_date}" \
-    org.label-schema.release= = "CardboardCI version:${version} build-date:${build_date}" \
-    org.label-schema.vendor = "cardboardci" \
-    org.label-schema.architecture = "amd64" \
-    \
-    org.label-schema.summary = "Stlye linter" \
-    org.label-schema.description = "A mighty, modern style linter" \
-    \
-    org.label-schema.url = "https://gitlab.com/cardboardci/images/stylelint" \
-    org.label-schema.changelog-url = "https://gitlab.com/cardboardci/images/stylelint/releases" \
-    org.label-schema.authoritative-source-url = "https://cloud.docker.com/u/cardboardci/repository/docker/cardboardci/stylelint" \
-    org.label-schema.distribution-scope = "public" \
-    org.label-schema.vcs-type = "git" \
-    org.label-schema.vcs-url = "https://gitlab.com/cardboardci/images/stylelint" \
-    org.label-schema.vcs-ref = "${vcs_ref}" \
+LABEL maintainer="CardboardCI"
+LABEL org.label-schema.schema-version="1.0"
+LABEL org.label-schema.name="stylelint"
+LABEL org.label-schema.version="${version}"
+LABEL org.label-schema.build-date="${build_date}"
+LABEL org.label-schema.release="CardboardCI version:${version} build-date:${build_date}"
+LABEL org.label-schema.vendor="cardboardci"
+LABEL org.label-schema.architecture="amd64"
+LABEL org.label-schema.summary="Stlye linter"
+LABEL org.label-schema.description="A mighty, modern style linter"
+LABEL org.label-schema.url="https://gitlab.com/cardboardci/images/stylelint"
+LABEL org.label-schema.changelog-url="https://gitlab.com/cardboardci/images/stylelint/releases"
+LABEL org.label-schema.authoritative-source-url="https://cloud.docker.com/u/cardboardci/repository/docker/cardboardci/stylelint"
+LABEL org.label-schema.distribution-scope="public"
+LABEL org.label-schema.vcs-type="git"
+LABEL org.label-schema.vcs-url="https://gitlab.com/cardboardci/images/stylelint"
+LABEL org.label-schema.vcs-ref="${vcs_ref}"
