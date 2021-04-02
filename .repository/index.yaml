@@ -1,0 +1,20 @@
+slug: docker-stylelint
+description: A mighty, modern style linter.
+project: cardboardci
+namespace: docker
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2019
+topics: |-
+  [
+    "dockerfile",
+    "css",
+    "scss",
+    "linter",
+    "postcss",
+    "html",
+    "markdown"
+  ]
